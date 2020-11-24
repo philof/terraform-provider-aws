@@ -24,6 +24,7 @@ func init() {
 		F:    testSweepNetworkFirewallFirewallPolicies,
 		Dependencies: []string{
 			"aws_networkfirewall_firewall",
+			"aws_networkfirewall_resource_policy",
 		},
 	})
 }
